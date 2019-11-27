@@ -6,7 +6,7 @@ type IntPair struct {
 	Second int
 }
 
-//QuicksortIntPairFirst sort slice of Intpair from high to low value of @IntPair.First with quicksort algorithm
+//QuicksortIntPairFirst sort slice of IntPair from low to high value of @IntPair.First with quicksort algorithm
 //returns sorted slice
 func QuicksortIntPairFirst(a []IntPair) []IntPair {
 	if len(a) < 2 {
@@ -34,7 +34,7 @@ func QuicksortIntPairFirst(a []IntPair) []IntPair {
 	return a
 }
 
-//QuicksortIntPairFirst sort slice of Intpair from high to low value of @IntPair.Second with quicksort algorithm
+//QuicksortIntPairFirst sort slice of IntPair from low to high value of @IntPair.Second with quicksort algorithm
 //returns sorted slice
 func QuicksortIntPairSecond(a []IntPair) []IntPair {
 	if len(a) < 2 {
